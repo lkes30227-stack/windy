@@ -1,0 +1,143 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Microsoft JhengHei",sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.8;
+}
+
+header{
+    background:linear-gradient(135deg,#003973,#005c97);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    background:#111;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00c3ff;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    margin-bottom:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#004e92;
+    margin-bottom:20px;
+}
+
+h3{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#005c97;
+}
+
+.highlight{
+    background:#e8f4ff;
+    border-left:6px solid #0077cc;
+    padding:18px;
+    margin:20px 0;
+    border-radius:8px;
+}
+
+ul{
+    padding-left:25px;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0077cc;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+    margin-top:15px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#005fa3;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:34px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .container{
+        width:92%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
